@@ -21,16 +21,10 @@ function App() {
       </GridItem>
 
       {/* Aside - Conditionally Rendered */}
-      {isLargeScreen && (
-        <GridItem area="aside" bg="gold">
-          Aside
-        </GridItem>
-      )}
+      {isLargeScreen && <GridItem area="aside">Aside</GridItem>}
 
       {/* Main Content */}
-      <GridItem area="main" bg="blue">
-        Main
-      </GridItem>
+      <GridItem area="main">Main</GridItem>
       {/* Footer */}
       <GridItem area="footer" bg="gray.700" color="white" textAlign="center">
         © 2025 Forex Dashboard. All Rights Reserved.
